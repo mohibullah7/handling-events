@@ -22,7 +22,7 @@ function UseState5() {
         </h1>
     ))}
     <button onClick={()=>fnc1(()=>{
-      return val3.filter((index)=>index < val3[6])
+      return val3.filter((item,index)=>item%2 !==0 )
     })  } 
     
     
